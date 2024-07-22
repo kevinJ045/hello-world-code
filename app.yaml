@@ -1,0 +1,12 @@
+manifest:
+  package: hello-world-code
+  private: false
+exec:
+  entry: main.coffee
+assets:
+  icon: assets/icon.png
+  folder: ./assets
+install:
+  requirements: []
+types:
+  - rew
